@@ -1,10 +1,51 @@
-body{
-    background-color: aqua;
+body {
+    background-color: rgb(174, 255, 255);
     margin: 0;
-    display: flex;
-}
-.container{
-    background-color: red;
     height: 100vh;
-    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: red;
+    height: 80vh;
+    width: 42vw;
+}
+
+.def {
+    height: 37vh;
+}
+/* Estilos de la parte superior de la Nintendo DS */
+#parteSuperior {
+    background-color: blue;
+    display: flex;
+    
+}
+
+#superiorIzquierda {
+    background-color: yellow;
+    width: 33vh;
+}
+
+#superiorCentro {
+    background-color: yellow;
+    width: 33vh;
+}
+
+#superiorDerecha {
+    background-color: yellow;
+    width: 33vh;
+}
+
+/* Estilos de la union de la Nintendo DS */
+#parteUnion {
+    background-color: rgb(114, 114, 116);
+    height: 6vh;
+}
+
+/* Estilos de la parte inferior de la Nintendo DS */
+#parteInferior {
+    background-color: blue;
 }
