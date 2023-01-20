@@ -31,7 +31,7 @@ body {
 #pantallaSuperior {
     background-color: yellow;
     width: 22vw;
-    height: 16vw;
+    height: 15vw;
 }
 
 /* Estilos de la union de la Nintendo DS */
@@ -71,7 +71,7 @@ body {
 #inferiorCentro {
     background-color: rgb(255, 0, 200);
     width: 22vw;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 
