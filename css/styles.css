@@ -20,7 +20,7 @@ body {
 
 /* Estilos de la parte superior de la Nintendo DS */
 #parteSuperior {
-    background-color: grey;
+    background-color: rgba(55,54,52,255);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -29,7 +29,7 @@ body {
 
 /* Estilos de la PANTALLA superior de la Nintendo DS */
 #pantallaSuperior {
-    background-color: yellow;
+    background:linear-gradient(167deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0.23) 100%);
     width: 21vw;
     height: 15vw;
 }
@@ -46,8 +46,8 @@ body {
 /* Estilos puntos altavoces arriba */
 .punto {
     background-color: black;
-    width: 5px;
-    height: 5px;
+    width: 7px;
+    height: 7px;
     border-radius: 100px;
 }
 
@@ -87,19 +87,82 @@ body {
 
 /* Estilos de la parte inferior de la Nintendo DS */
 #parteInferior {
-    background-color: grey;
+    background-color: rgba(55,54,52,255);
     display: flex;
 }
 
 /* Estilos de la parte inferior IZQUIERDA de la Nintendo DS */
 #inferiorIzquierda {
-    background-color: grey;
+    background-color: rgba(55,54,52,255);
     width: 10vw;
+
 }
+#dios{
+    margin-bottom: 100px;
+}
+
+/* Barra vertical del pad de direccion */
+#padVertical {
+    background:linear-gradient(359deg, rgba(63, 60, 60, 1) 0%, rgba(0, 0, 0, 0.84) 100%);
+    width: 30px;
+    height: 90px;
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px black solid;
+
+}
+
+/* lineas blancas del pad inferior verticales */
+#flechaVertical {
+    background-color: white;
+    width: 2px;
+    height: 25px;
+    margin-top: -45px;
+}
+#flechaVertical2 {
+    background-color: white;
+    width: 2px;
+    height: 25px;
+    position: absolute;
+    margin-top: 45px;
+}
+
+/* Barra horizontal del pad de direccion */
+#padHorizontal {
+    background:linear-gradient(331deg, rgba(63, 60, 60, 1) 0%, rgba(0, 0, 0, 0.84) 100%);
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px black solid;
+
+}
+
+/* lineas blancas del pad inferior horizontales */
+#flechaHorizontal {
+    background-color: white;
+    width: 20px;
+    height: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Punto para separar lineas del pad de direccion inferior */
+
+
+
 
 /* Estilos de la parte inferior CENTRO de la Nintendo DS */
 #inferiorCentro {
-    background-color: yellow;
+    background:linear-gradient(308deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.84) 100%);
     width: 24vw;
     margin-top: 30px;
     margin-bottom: 40px;
@@ -107,6 +170,6 @@ body {
 
 /* Estilos de la parte inferior DERECHA de la Nintendo DS */
 #inferiorDerecha {
-    background-color: grey;
+    background-color: rgba(55,54,52,255);
     width: 10vw;
 }
