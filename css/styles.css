@@ -20,7 +20,7 @@ body {
 
 /* Estilos de la parte superior de la Nintendo DS */
 #parteSuperior {
-    background-color: rgba(55,54,52,255);
+    background-color: rgba(55, 54, 52, 255);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -29,7 +29,7 @@ body {
 
 /* Estilos de la PANTALLA superior de la Nintendo DS */
 #pantallaSuperior {
-    background:linear-gradient(167deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0.23) 100%);
+    background: linear-gradient(167deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0.23) 100%);
     width: 21vw;
     height: 14vw;
     border: 15px solid rgb(27, 26, 26);
@@ -88,27 +88,26 @@ body {
 
 /* Estilos de la parte inferior de la Nintendo DS */
 #parteInferior {
-    background-color: rgba(55,54,52,255);
+    background-color: rgba(55, 54, 52, 255);
     display: flex;
 }
 
 /* Estilos de la parte inferior IZQUIERDA de la Nintendo DS */
 #inferiorIzquierda {
-    background-color: rgba(55,54,52,255);
+    background-color: rgba(55, 54, 52, 255);
     width: 10vw;
-
-}
-#dios{
     margin-bottom: 100px;
+    padding-right: 12px;
+
 }
 
 /* Barra vertical del pad de direccion */
 #padVertical {
-    background:linear-gradient(359deg, rgba(63, 60, 60, 1) 0%, rgba(0, 0, 0, 0.84) 100%);
+    background: linear-gradient(359deg, rgba(63, 60, 60, 1) 0%, rgba(0, 0, 0, 0.84) 100%);
     width: 30px;
     height: 90px;
     position: absolute;
-    margin-top: 105px;
+    margin-top: 85px;
     margin-left: 70px;
     display: flex;
     align-items: center;
@@ -121,25 +120,26 @@ body {
 #flechaVertical {
     background-color: white;
     width: 2px;
-    height: 20px;
-    margin-top: -50px;
+    height: 18px;
+    margin-top: -55px;
 }
+
 #flechaVertical2 {
     background-color: white;
     width: 2px;
-    height: 20px;
+    height: 18px;
     position: absolute;
     margin-top: 50px;
 }
 
 /* Barra horizontal del pad de direccion */
 #padHorizontal {
-    background:linear-gradient(331deg, rgba(63, 60, 60, 1) 0%, rgba(0, 0, 0, 0.84) 100%);
+    background: linear-gradient(331deg, rgba(63, 60, 60, 1) 0%, rgba(0, 0, 0, 0.84) 100%);
     width: 90px;
     height: 30px;
     position: absolute;
     margin-left: 40px;
-    margin-top: 135px;
+    margin-top: 116px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -160,27 +160,128 @@ body {
 }
 
 /* Punto para separar lineas del pad de direccion inferior */
-#puntoPad { 
-    background:linear-gradient(330deg, rgba(63, 60, 60, 1) 0%, rgba(0, 0, 0, 1) 100%);
+#puntoPad {
+    background: linear-gradient(330deg, rgba(63, 60, 60, 1) 0%, rgba(0, 0, 0, 1) 100%);
     width: 30.5px;
     height: 32.3px;
     position: absolute;
     z-index: 2;
     margin-left: 55px;
 }
+
 /* Estilos de la parte inferior CENTRO de la Nintendo DS */
 #inferiorCentro {
-    background:linear-gradient(167deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0.23) 100%);
+    background: linear-gradient(167deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0.23) 100%);
     width: 26vw;
     height: 28vh;
     margin-top: 30px;
     margin-bottom: 40px;
     border: 15px solid rgb(27, 26, 26);
-    
+
 }
 
 /* Estilos de la parte inferior DERECHA de la Nintendo DS */
 #inferiorDerecha {
-    background-color: rgba(55,54,52,255);
+    background-color: rgba(55, 54, 52, 255);
     width: 10vw;
+    margin-top: 60px;
+
+
+}
+
+/* Grid de botones X Y B A */
+#gridBotones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 15px;
+    margin-right: 20px;
+    gap: 1px;
+
+}
+
+/* Estilos boton X */
+.botonX {
+    background-color: rgb(0, 0, 0);
+    height: 37px;
+    grid-column: 2 / 3;
+    width: 37px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+
+}
+
+/* Estilos boton Y */
+.botonY {
+    background-color: rgb(3, 3, 3);
+    height: 37px;
+    width: 37px;
+    grid-column: 1 / 2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+/* Estilos boton A */
+.botonA {
+    background-color: rgb(0, 0, 0);
+    height: 37px;
+    width: 37px;
+    grid-column: 3 / 4;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+/* Estilos boton B */
+.botonB {
+    background-color: rgb(0, 0, 0);
+    grid-column: 2 / 3;
+    height: 37px;
+    width: 37px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+/* Estilos DIV boton START */
+#start {
+    height: 3vh;
+    width: 5vw;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 14px;
+    margin-bottom: 18px;
+    color: white;
+    
+
+}
+
+/* Estilos DIV boton SELECT */
+#select {
+    height: 3vh;
+    margin-right: 50px;
+    margin-left: 14px;
+    color: white;
+}
+/* Estilos punto del boton SELECT Y START */
+.botonMenus{
+    background-color: black;
+    height: 2vh;
+    width: 1vw;
+    border-radius: 100px;
+}
+/* Estilos texto boton START Y SELECT */
+.botonMenus p{
+margin-left: 25px;
+font-size: small;
 }
