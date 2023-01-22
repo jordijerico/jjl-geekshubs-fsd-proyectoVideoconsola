@@ -3,7 +3,7 @@
 Maquetado, programación y desarrollo de una interfaz de una videoconsola a elección. En este caso se ha maquetao una Nintendo DS Lite negra.
 
 
-
+https://github.com/jordijerico/jjl-geekshubs-fsd-proyectoVideoconsola/blob/master/imagenes/Nintendo%20DS.png
 
 
 
