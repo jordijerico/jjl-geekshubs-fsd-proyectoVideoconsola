@@ -1,7 +1,6 @@
 # NINTENDO DS LITE
 
-Maquetado, programación y desarrollo de una interfaz de una videoconsola a elección con HTML5 Y CSS3. En este caso se ha maquetao una Nintendo DS Lite negra.
-
+Maquetado, programación y desarrollo de una interfaz de una videoconsola a elección con HTML5 Y CSS3. En este caso se ha maquetado una Nintendo DS Lite.
 
 
 
